@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+}
+
+body {
+  min-height: 100vh; 
+  background-color: #F1FAFF;
+  display: flex;
+  flex-direction: column; 
+}
+
+.operario {
+  background: linear-gradient(to right, #d1eafc, #2B78C5);
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  height: 200px;
+  box-shadow: 0px 5px 20px #AEC3FF;
+}
+
+.oper {
+  position: absolute;
+  z-index: 2;
+  right: 0px;
+  top: -1px;
+  height: 200px;
+  display: flex;
+}
+
+.tit {
+  margin-top: 120px;
+  font-size: 35px;
+  font-weight: 700;
+  margin-left: 250px;
+  display: inline;
+  width: 2000px;
+  text-align: center;
+}
+
+.loc {
+  position: relative;
+  bottom: 70px;
+  height: 350px;
+  width: 380px;
+  opacity: 0.2;
+}
+
+p {
+  margin-top: 60px;
+  width: 1000px;
+  margin-left: 70px;
+  margin-right: 60px;
+}
+
+.tex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  flex: 1;}
+
+video {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 700px;
+  height: 400px;
+ 
+  border: #2B78C5;
+}
+
+.rod {
+  width: 100%;
+  background: linear-gradient(to right, #AFDEFF, #2B78C5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.rodape {
+  width: 35px;
+  height: 27px;
+}
+

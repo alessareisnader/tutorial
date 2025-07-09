@@ -1,0 +1,277 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #F1FAFF;
+}
+
+
+.operario {
+  background: linear-gradient(to right, #d1eafc, #2B78C5);
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  height: 200px;
+  box-shadow: 0px 5px 20px #AEC3FF;
+}
+
+.oper {
+  position: absolute;
+  z-index: 2;
+  right: 0px;
+  top: -1px;
+  height: 200px;
+  display: flex;
+}
+
+.loc {
+  position: relative;
+  bottom: 80px;
+  height: 370px;
+  width: 400px;
+  opacity: 0.2;
+}
+
+.titulos {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+
+.item1 {
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.item2 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.item3 {
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.modulo {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.modulos,
+.modulos2,
+.modulos3 {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  width: 20%;
+}
+
+.modulos2 {
+  position: relative;
+  left: 30%;
+  bottom: 320px;
+}
+
+.modulos3 {
+  position: relative;
+  left: 60%;
+  bottom: 600px;
+}
+
+.modulostod {
+  font-size: 15px;
+  flex-wrap: wrap;
+  margin: 30px;
+  height: 365px;
+  margin-left: 170px;
+  
+}
+
+.modulostod a {
+  color: #000000;
+  flex-wrap: wrap;
+  margin: 10px 0;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.a {
+  margin: 5px;
+}
+
+.b,
+.c,
+.d,
+.e,
+.f {
+  margin: 10px;
+}
+
+.rodape {
+  width: 35px;
+  height: 27px;
+  
+}
+
+.rod {
+  width: 100%;
+  background: linear-gradient(to right, #AFDEFF, #2B78C5);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 400px) {
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #F1FAFF;
+}
+
+
+.modulostod {
+  font-size: 15px;
+  flex-wrap: wrap;
+  margin: 30px;
+  height: 365px;
+ 
+}
+.operario {
+  background: linear-gradient(to right, #AFDEFF, #2B78C5);
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  height: 200px;
+  box-shadow: 0px 5px 20px #AEC3FF;
+}
+
+.oper {
+  position: absolute;
+  z-index: 2;
+  right: 0px;
+  top: -1px;
+  height: 200px;
+  display: flex;
+}
+
+.loc {
+  position: relative;
+  bottom: 80px;
+  height: 370px;
+  width: 160px;
+  opacity: 0.2;
+}
+
+.titulos {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+
+.item1 {
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.item2 {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.item3 {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.modulo {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.modulos,
+.modulos2,
+.modulos3 {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  width: 20%;
+
+}
+
+.modulos2 {
+  position: relative;
+  left: 30%;
+  bottom: 1200px;
+}
+
+.modulos3 {
+  position: relative;
+  left: 60%;
+  bottom: 860px;
+}
+
+
+.modulostod a {
+  color: #000000;
+  flex-wrap: wrap;
+  margin: 10px 0;
+  font-size: 12px;
+  flex: 1;
+}
+
+.a {
+  margin: 5px;
+}
+
+.b,
+.c,
+.d,
+.e,
+.f {
+  margin: 10px;
+}
+
+.rodape {
+  width: 35px;
+  height: 27px;
+  
+}
+
+.rod {
+  width: 100%;
+  background: linear-gradient(to right, #AFDEFF, #2B78C5);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 145px;
+}
+
+
+}
+
